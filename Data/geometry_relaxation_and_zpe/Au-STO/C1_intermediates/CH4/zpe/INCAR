@@ -1,0 +1,21 @@
+ENCUT = 500.000000
+SIGMA = 0.010000
+EDIFF = 1.00e-05
+ALGO = A
+ISMEAR = 0
+NELM = 200
+NSW = 999
+LCHARG = .FALSE.
+LWAVE = .FALSE.
+LREAL = Auto
+
+IBRION = 5 ; POTIM = 0.015 ! For frequency calc.
+NFREE = 2
+
+ISYM = 0
+EDIFFG = -0.05
+
+GGA = BF
+LUSE_VDW=.TRUE.
+Zab_VDW = -1.8867
+LBEEFENS=.TRUE. !to calculate error estimates
