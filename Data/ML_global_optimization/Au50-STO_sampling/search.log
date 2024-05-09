@@ -1,0 +1,983 @@
+
+##### STEPS: 0 #####
+Runtime: 6:33:39.073405
+
+lml: -34.205362880944726
+kernel optimized:
+Theta = ['5.42e+01', '1.00e-01', '1.00e-01', '1.00e-02', '1.00e-05', '1.00e+01']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+4.14e-02    2.83e+00    7.25e+00       2.38e+01        4.44e+03    
+
+Prediction:
+energy = -972.92339eV,  energy_std = 4.79222eV
+E_true:
+0 = -972.5745eV,  1 = -982.3266eV,  
+
+Energy of population:
+0 = -981.9420eV,  1 = -975.3442eV,  2 = -973.9978eV,  
+
+##### STEPS: 1 #####
+Runtime: 7:48:08.248106
+
+lml: -40.521119228794475
+kernel optimized:
+Theta = ['6.20e+01', '1.61e-01', '1.00e-01', '1.00e-02', '1.00e-05', '1.00e-01']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+7.10e-02    2.86e+00    6.08e+00       2.35e+01        4.62e+03    
+
+Prediction:
+energy = -980.23935eV,  energy_std = 4.32828eV
+E_true:
+0 = -981.7585eV,  1 = -989.4086eV,  
+
+Energy of population:
+0 = -982.3266eV,  1 = -981.9420eV,  2 = -975.3442eV,  
+
+##### STEPS: 2 #####
+Runtime: 9:05:45.376436
+
+lml: -45.35365438646552
+kernel optimized:
+Theta = ['8.80e+01', '3.31e-01', '3.31e-01', '1.00e-02', '1.00e-05', '1.00e-01']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+6.54e-02    2.87e+00    7.47e+00       2.37e+01        4.67e+03    
+
+Prediction:
+energy = -987.80331eV,  energy_std = 4.52727eV
+E_true:
+0 = -987.1535eV,  1 = -990.9855eV,  
+
+Energy of population:
+0 = -989.4086eV,  1 = -981.9420eV,  2 = -975.3442eV,  
+
+##### STEPS: 3 #####
+Runtime: 10:24:10.693592
+
+lml: -50.671519791091654
+kernel optimized:
+Theta = ['1.50e+02', '5.06e-01', '1.00e-01', '1.00e-02', '1.00e-05', '1.00e-01']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.05e-01    2.82e+00    7.13e+00       2.36e+01        4.73e+03    
+
+Prediction:
+energy = -988.24792eV,  energy_std = 7.03836eV
+E_true:
+0 = -982.1553eV,  1 = -985.2461eV,  
+
+Energy of population:
+0 = -990.9855eV,  1 = -981.9420eV,  2 = -975.3442eV,  
+
+##### STEPS: 4 #####
+Runtime: 11:43:34.121638
+
+lml: -56.91517056978168
+kernel optimized:
+Theta = ['3.14e+02', '7.43e-01', '1.00e-01', '1.00e-02', '1.00e-05', '1.00e-01']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+5.56e-02    2.84e+00    6.77e+00       2.35e+01        4.56e+03    
+
+Prediction:
+energy = -988.21090eV,  energy_std = 4.09090eV
+E_true:
+0 = -990.9501eV,  1 = -994.7019eV,  
+
+Energy of population:
+0 = -990.9855eV,  1 = -985.2461eV,  2 = -975.3442eV,  
+
+##### STEPS: 5 #####
+Runtime: 13:00:11.386917
+
+lml: -60.67946256721301
+kernel optimized:
+Theta = ['1.40e+03', '1.42e+00', '1.42e+00', '1.00e-02', '1.00e-05', '1.97e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+3.22e-01    2.85e+00    7.35e+00       2.34e+01        4.49e+03    
+
+Prediction:
+energy = -992.64521eV,  energy_std = 4.21781eV
+E_true:
+0 = -989.5614eV,  1 = -993.3028eV,  
+
+Energy of population:
+0 = -994.7019eV,  1 = -981.9420eV,  2 = -975.3442eV,  
+
+##### STEPS: 6 #####
+Runtime: 14:15:37.232061
+
+lml: -64.11734385544199
+kernel optimized:
+Theta = ['1.97e+03', '1.80e+00', '1.79e+00', '1.00e-02', '1.00e-05', '2.66e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.51e-01    2.86e+00    7.98e+00       2.36e+01        4.75e+03    
+
+Prediction:
+energy = -994.82155eV,  energy_std = 2.39215eV
+E_true:
+0 = -993.5539eV,  1 = -996.2957eV,  
+
+Energy of population:
+0 = -994.7019eV,  1 = -981.9420eV,  2 = -975.3442eV,  
+
+##### STEPS: 7 #####
+Runtime: 15:35:18.365623
+
+lml: -66.85540777570026
+kernel optimized:
+Theta = ['2.83e+03', '2.28e+00', '2.28e+00', '1.00e-02', '1.00e-05', '3.08e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+2.05e-01    2.91e+00    6.46e+00       2.46e+01        4.65e+03    
+
+Prediction:
+energy = -1004.41600eV,  energy_std = 4.61874eV
+E_true:
+0 = -1007.6981eV,  1 = -1012.4476eV,  
+
+Energy of population:
+0 = -996.2957eV,  1 = -985.2461eV,  2 = -981.9420eV,  
+
+##### STEPS: 8 #####
+Runtime: 16:53:25.637763
+
+lml: -71.28017094400636
+kernel optimized:
+Theta = ['5.93e+03', '3.47e+00', '3.47e+00', '1.00e-02', '1.00e-05', '3.36e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.67e-01    4.77e+00    7.61e+00       2.92e+01        4.21e+03    
+
+Prediction:
+energy = -1015.68719eV,  energy_std = 11.94954eV
+E_true:
+0 = -1014.8079eV,  1 = -1016.4137eV,  
+
+Energy of population:
+0 = -1012.4476eV,  1 = -996.2957eV,  2 = -985.2461eV,  3 = -982.3266eV,  
+4 = -975.3442eV,  
+
+##### STEPS: 9 #####
+Runtime: 18:04:16.489932
+
+lml: -76.0149563696737
+kernel optimized:
+Theta = ['6.49e+03', '3.86e+00', '3.86e+00', '1.00e-02', '1.00e-05', '3.81e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.89e-01    4.47e+00    8.90e+00       2.50e+01        4.30e+03    
+
+Prediction:
+energy = -1015.25437eV,  energy_std = 8.19724eV
+E_true:
+0 = -1013.0193eV,  1 = -1014.6414eV,  
+
+Energy of population:
+0 = -1016.4137eV,  1 = -1012.4476eV,  2 = -996.2957eV,  3 = -985.2461eV,  
+
+##### STEPS: 10 #####
+Runtime: 19:16:35.265937
+
+lml: -80.05844002628461
+kernel optimized:
+Theta = ['7.65e+03', '4.43e+00', '4.43e+00', '1.00e-02', '1.00e-05', '3.99e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+2.10e-01    6.02e+00    1.01e+01       3.42e+01        4.08e+03    
+
+Prediction:
+energy = -1032.70795eV,  energy_std = 21.08596eV
+E_true:
+0 = -1021.9961eV,  1 = -1023.1590eV,  
+
+Energy of population:
+0 = -1016.4137eV,  1 = -1014.6414eV,  2 = -1012.4476eV,  3 = -996.2957eV,  
+4 = -989.4086eV,  
+
+##### STEPS: 11 #####
+Runtime: 20:25:22.377110
+
+lml: -85.1506881833752
+kernel optimized:
+Theta = ['7.74e+03', '4.62e+00', '4.62e+00', '1.00e-02', '1.00e-05', '4.15e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+2.96e-01    5.13e+00    9.16e+00       1.70e+02        4.07e+03    
+
+Prediction:
+energy = -1029.79863eV,  energy_std = 29.24353eV
+E_true:
+0 = -1034.6840eV,  1 = -1037.8273eV,  
+
+Energy of population:
+0 = -1023.1590eV,  1 = -1016.4137eV,  2 = -1012.4476eV,  3 = -996.2957eV,  
+
+##### STEPS: 12 #####
+Runtime: 21:36:12.992294
+
+lml: -91.5641195903228
+kernel optimized:
+Theta = ['1.09e+04', '5.79e+00', '5.79e+00', '1.00e-02', '1.00e-05', '4.16e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+2.39e-01    4.79e+00    8.91e+00       4.14e+01        4.21e+03    
+
+Prediction:
+energy = -1025.63505eV,  energy_std = 8.42622eV
+E_true:
+0 = -1021.0049eV,  1 = -1022.1340eV,  
+
+Energy of population:
+0 = -1037.8273eV,  1 = -1023.1590eV,  2 = -1016.4137eV,  
+
+##### STEPS: 13 #####
+Runtime: 22:47:23.197669
+
+lml: -95.43175382694146
+kernel optimized:
+Theta = ['1.02e+04', '5.69e+00', '5.69e+00', '1.00e-02', '1.00e-05', '4.09e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+2.90e-01    2.95e+00    7.55e+00       3.37e+01        4.16e+03    
+
+Prediction:
+energy = -1028.17179eV,  energy_std = 9.88178eV
+E_true:
+0 = -1023.9726eV,  1 = -1025.7562eV,  
+
+Energy of population:
+0 = -1037.8273eV,  1 = -1023.1590eV,  2 = -1022.1340eV,  
+
+##### STEPS: 14 #####
+Runtime: 0:00:12.077486
+
+lml: -99.33586216503028
+kernel optimized:
+Theta = ['9.88e+03', '5.69e+00', '5.70e+00', '1.00e-02', '1.00e-05', '3.96e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+2.19e-01    3.00e+00    5.92e+00       2.47e+01        4.19e+03    
+
+Prediction:
+energy = -1032.19998eV,  energy_std = 3.28643eV
+E_true:
+0 = -1030.7856eV,  1 = -1033.5468eV,  
+
+Energy of population:
+0 = -1037.8273eV,  1 = -1025.7562eV,  2 = -1023.1590eV,  
+
+##### STEPS: 15 #####
+Runtime: 1:10:39.523197
+
+lml: -102.14345238312602
+kernel optimized:
+Theta = ['1.12e+04', '6.24e+00', '6.24e+00', '1.00e-02', '1.00e-05', '3.88e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+3.44e-01    2.92e+00    7.37e+00       3.00e+01        3.90e+03    
+
+Prediction:
+energy = -1036.52802eV,  energy_std = 1.54137eV
+E_true:
+0 = -1036.2680eV,  1 = -1038.1354eV,  
+
+Energy of population:
+0 = -1037.8273eV,  1 = -1025.7562eV,  2 = -1023.1590eV,  
+
+##### STEPS: 16 #####
+Runtime: 2:16:21.913579
+
+lml: -103.89989157079444
+kernel optimized:
+Theta = ['1.06e+04', '6.23e+00', '6.24e+00', '1.00e-02', '1.00e-05', '3.94e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+2.31e-01    2.95e+00    7.58e+00       2.46e+01        2.00e+03    
+
+Prediction:
+energy = -1038.18408eV,  energy_std = 0.26396eV
+E_true:
+0 = -1038.1354eV,  1 = -1039.5365eV,  
+
+Energy of population:
+0 = -1038.1354eV,  1 = -1025.7562eV,  2 = -1023.1590eV,  
+
+##### STEPS: 17 #####
+Runtime: 2:50:13.125337
+
+lml: -104.32662098022841
+kernel optimized:
+Theta = ['8.66e+03', '5.70e+00', '5.70e+00', '1.00e-02', '1.00e-05', '4.02e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+4.39e-01    3.02e+00    1.01e+01       8.26e+01        4.22e+03    
+
+Prediction:
+energy = -1033.77523eV,  energy_std = 10.38069eV
+E_true:
+0 = -1021.8591eV,  1 = -1022.5062eV,  
+
+Energy of population:
+0 = -1039.5365eV,  1 = -1025.7562eV,  2 = -1023.1590eV,  
+
+##### STEPS: 18 #####
+Runtime: 4:02:05.560038
+
+lml: -108.68732344123504
+kernel optimized:
+Theta = ['8.21e+03', '5.59e+00', '5.59e+00', '1.00e-02', '1.00e-05', '4.09e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+3.94e-01    4.13e+01    7.93e+00       1.20e+02        3.99e+03    
+
+Prediction:
+energy = -1034.05746eV,  energy_std = 18.23691eV
+E_true:
+0 = -1041.2098eV,  1 = -1042.1807eV,  
+
+Energy of population:
+0 = -1039.5365eV,  1 = -1025.7562eV,  2 = -1023.1590eV,  3 = -1022.5062eV,  
+
+##### STEPS: 19 #####
+Runtime: 5:11:24.619905
+
+lml: -113.74904316258858
+kernel optimized:
+Theta = ['8.76e+03', '5.84e+00', '5.84e+00', '1.00e-02', '1.00e-05', '3.79e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+4.46e-01    3.93e+01    7.33e+00       1.38e+02        3.90e+03    
+
+Prediction:
+energy = -1044.81469eV,  energy_std = 9.25667eV
+E_true:
+0 = -1039.7741eV,  1 = -1040.0926eV,  
+
+Energy of population:
+0 = -1042.1807eV,  1 = -1039.5365eV,  2 = -1025.7562eV,  
+
+##### STEPS: 20 #####
+Runtime: 6:19:33.198092
+
+lml: -117.15758456018051
+kernel optimized:
+Theta = ['7.83e+03', '5.62e+00', '5.61e+00', '1.00e-02', '1.00e-05', '3.88e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+3.59e-01    7.69e+01    9.08e+00       2.75e+02        3.98e+03    
+
+Prediction:
+energy = -1043.67665eV,  energy_std = 11.07893eV
+E_true:
+0 = -1042.9704eV,  1 = -1043.4174eV,  
+
+Energy of population:
+0 = -1042.1807eV,  1 = -1040.0926eV,  2 = -1039.5365eV,  
+
+##### STEPS: 21 #####
+Runtime: 7:31:55.484293
+
+lml: -120.6942726577394
+kernel optimized:
+Theta = ['7.46e+03', '5.60e+00', '5.62e+00', '1.00e-02', '1.00e-05', '3.93e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+3.34e-01    7.61e+01    6.75e+00       7.21e+02        3.84e+03    
+
+Prediction:
+energy = -1047.78607eV,  energy_std = 7.96744eV
+E_true:
+0 = -1044.5526eV,  1 = -1044.9312eV,  
+
+Energy of population:
+0 = -1043.4174eV,  1 = -1042.1807eV,  2 = -1039.5365eV,  
+
+##### STEPS: 22 #####
+Runtime: 8:49:18.527167
+
+lml: -123.88119761205401
+kernel optimized:
+Theta = ['6.91e+03', '5.49e+00', '5.49e+00', '1.00e-02', '1.00e-05', '4.01e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+5.00e-01    7.38e+01    8.31e+00       6.68e+02        3.91e+03    
+
+Prediction:
+energy = -1045.31739eV,  energy_std = 11.54196eV
+E_true:
+0 = -1047.9432eV,  1 = -1048.2700eV,  
+
+Energy of population:
+0 = -1044.9312eV,  1 = -1042.1807eV,  2 = -1039.5365eV,  
+
+##### STEPS: 23 #####
+Runtime: 10:07:02.258781
+
+lml: -127.58363376097302
+kernel optimized:
+Theta = ['7.08e+03', '5.68e+00', '5.68e+00', '1.00e-02', '1.00e-05', '4.08e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+6.06e-01    1.07e+02    8.77e+00       7.88e+02        3.89e+03    
+
+Prediction:
+energy = -1027.73051eV,  energy_std = 26.13667eV
+E_true:
+0 = -1037.4502eV,  1 = -1044.6089eV,  
+
+Energy of population:
+0 = -1048.2700eV,  1 = -1044.9312eV,  2 = -1043.4174eV,  
+
+##### STEPS: 24 #####
+Runtime: 11:26:59.494310
+
+lml: -134.32254402798992
+kernel optimized:
+Theta = ['7.75e+03', '5.94e+00', '5.94e+00', '1.00e-02', '1.00e-05', '3.71e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+6.84e-01    1.08e+02    7.77e+00       7.66e+02        4.17e+03    
+
+Prediction:
+energy = -1050.59780eV,  energy_std = 16.20562eV
+E_true:
+0 = -1047.0064eV,  1 = -1050.0090eV,  
+
+Energy of population:
+0 = -1048.2700eV,  1 = -1044.9312eV,  2 = -1044.6089eV,  
+
+##### STEPS: 25 #####
+Runtime: 12:51:14.073292
+
+lml: -140.03828326186334
+kernel optimized:
+Theta = ['8.13e+03', '6.21e+00', '6.21e+00', '1.00e-02', '1.00e-05', '3.77e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+4.64e-01    1.05e+02    8.11e+00       8.67e+02        3.99e+03    
+
+Prediction:
+energy = -1055.32957eV,  energy_std = 11.05288eV
+E_true:
+0 = -1052.7343eV,  1 = -1053.3757eV,  
+
+Energy of population:
+0 = -1050.0090eV,  1 = -1048.2700eV,  2 = -1044.9312eV,  
+
+##### STEPS: 26 #####
+Runtime: 14:14:10.434261
+
+lml: -144.06571453334806
+kernel optimized:
+Theta = ['8.35e+03', '6.42e+00', '6.42e+00', '1.00e-02', '1.00e-05', '3.80e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+5.27e-01    1.10e+02    7.85e+00       5.99e+02        4.01e+03    
+
+Prediction:
+energy = -1051.48403eV,  energy_std = 9.94409eV
+E_true:
+0 = -1053.7867eV,  1 = -1054.2148eV,  
+
+Energy of population:
+0 = -1053.3757eV,  1 = -1048.2700eV,  2 = -1044.9312eV,  
+
+##### STEPS: 27 #####
+Runtime: 15:32:55.616824
+
+lml: -147.55193855068774
+kernel optimized:
+Theta = ['8.09e+03', '6.40e+00', '6.42e+00', '1.00e-02', '1.00e-05', '3.78e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+4.06e-01    9.46e+01    1.02e+01       7.89e+02        3.90e+03    
+
+Prediction:
+energy = -1056.74888eV,  energy_std = 11.62967eV
+E_true:
+0 = -1050.5843eV,  1 = -1051.8823eV,  
+
+Energy of population:
+0 = -1054.2148eV,  1 = -1048.2700eV,  2 = -1044.6089eV,  
+
+##### STEPS: 28 #####
+Runtime: 16:52:46.903350
+
+lml: -152.28291335256534
+kernel optimized:
+Theta = ['8.42e+03', '6.58e+00', '6.58e+00', '1.00e-02', '1.00e-05', '3.63e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+5.47e-01    1.09e+02    9.16e+00       6.92e+02        3.86e+03    
+
+Prediction:
+energy = -1055.87780eV,  energy_std = 8.69764eV
+E_true:
+0 = -1052.0408eV,  1 = -1052.3421eV,  
+
+Energy of population:
+0 = -1054.2148eV,  1 = -1048.2700eV,  2 = -1044.9312eV,  
+
+##### STEPS: 29 #####
+Runtime: 18:10:33.931649
+
+lml: -155.60159477163828
+kernel optimized:
+Theta = ['7.87e+03', '6.45e+00', '6.45e+00', '1.00e-02', '1.00e-05', '3.70e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+5.84e-01    1.12e+02    7.99e+00       5.89e+02        3.99e+03    
+
+Prediction:
+energy = -1053.45189eV,  energy_std = 8.20211eV
+E_true:
+0 = -1053.1323eV,  1 = -1053.5180eV,  
+
+Energy of population:
+0 = -1054.2148eV,  1 = -1051.8823eV,  2 = -1048.2700eV,  3 = -1044.9312eV,  
+
+##### STEPS: 30 #####
+Runtime: 19:28:50.731188
+
+lml: -158.99600376073874
+kernel optimized:
+Theta = ['7.89e+03', '6.58e+00', '6.58e+00', '1.00e-02', '1.00e-05', '3.75e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+8.74e-01    9.19e+01    8.77e+00       5.44e+02        3.91e+03    
+
+Prediction:
+energy = -1054.33916eV,  energy_std = 8.87387eV
+E_true:
+0 = -1055.0931eV,  1 = -1055.5087eV,  
+
+Energy of population:
+0 = -1054.2148eV,  1 = -1053.5180eV,  2 = -1051.8823eV,  
+
+##### STEPS: 31 #####
+Runtime: 20:44:46.510725
+
+lml: -162.37570805354625
+kernel optimized:
+Theta = ['7.70e+03', '6.59e+00', '6.58e+00', '1.00e-02', '1.00e-05', '3.75e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+6.74e-01    7.96e+01    9.31e+00       8.02e+02        3.83e+03    
+
+Prediction:
+energy = -1056.46062eV,  energy_std = 6.42004eV
+E_true:
+0 = -1056.9610eV,  1 = -1057.2109eV,  
+
+Energy of population:
+0 = -1055.5087eV,  1 = -1054.2148eV,  2 = -1052.3421eV,  
+
+##### STEPS: 32 #####
+Runtime: 22:03:23.690238
+
+lml: -165.28851150205534
+kernel optimized:
+Theta = ['7.34e+03', '6.50e+00', '6.58e+00', '1.00e-02', '1.00e-05', '3.75e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+4.92e-01    9.55e+01    6.44e+00       7.71e+02        3.82e+03    
+
+Prediction:
+energy = -1058.03023eV,  energy_std = 7.42750eV
+E_true:
+0 = -1057.4224eV,  1 = -1057.7904eV,  
+
+Energy of population:
+0 = -1057.2109eV,  1 = -1055.5087eV,  2 = -1053.3757eV,  
+
+##### STEPS: 33 #####
+Runtime: 0:00:25.086071
+
+lml: -168.39925977581328
+kernel optimized:
+Theta = ['7.08e+03', '6.47e+00', '6.47e+00', '1.00e-02', '1.00e-05', '3.77e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.06e+00    7.99e+01    8.34e+00       8.36e+02        3.93e+03    
+
+Prediction:
+energy = -1055.98276eV,  energy_std = 6.43628eV
+E_true:
+0 = -1055.8997eV,  1 = -1056.2449eV,  
+
+Energy of population:
+0 = -1057.7904eV,  1 = -1054.2148eV,  2 = -1053.5180eV,  
+
+##### STEPS: 34 #####
+Runtime: 1:21:17.755631
+
+lml: -171.24895543807156
+kernel optimized:
+Theta = ['6.81e+03', '6.42e+00', '6.42e+00', '1.00e-02', '1.00e-05', '3.77e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+9.52e-01    7.47e+01    8.93e+00       5.45e+02        3.81e+03    
+
+Prediction:
+energy = -1056.98304eV,  energy_std = 5.34203eV
+E_true:
+0 = -1057.4450eV,  1 = -1057.7707eV,  
+
+Energy of population:
+0 = -1057.7904eV,  1 = -1056.2449eV,  2 = -1053.5180eV,  
+
+##### STEPS: 35 #####
+Runtime: 2:35:21.889516
+
+lml: -173.94150819427236
+kernel optimized:
+Theta = ['6.49e+03', '6.35e+00', '6.42e+00', '1.00e-02', '1.00e-05', '3.82e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+5.57e-01    1.01e+02    9.41e+00       5.88e+02        3.92e+03    
+
+Prediction:
+energy = -1057.12542eV,  energy_std = 5.74102eV
+E_true:
+0 = -1055.7468eV,  1 = -1056.0929eV,  
+
+Energy of population:
+0 = -1057.7904eV,  1 = -1057.7707eV,  2 = -1057.2109eV,  3 = -1053.5180eV,  
+
+##### STEPS: 36 #####
+Runtime: 3:52:22.905543
+
+lml: -176.60778918696758
+kernel optimized:
+Theta = ['6.23e+03', '6.30e+00', '6.30e+00', '1.00e-02', '1.00e-05', '3.85e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.15e+00    1.06e+02    7.24e+00       6.57e+02        4.00e+03    
+
+Prediction:
+energy = -1057.57221eV,  energy_std = 5.09147eV
+E_true:
+0 = -1056.0506eV,  1 = -1056.2793eV,  
+
+Energy of population:
+0 = -1057.7904eV,  1 = -1057.7707eV,  2 = -1057.2109eV,  3 = -1053.5180eV,  
+
+##### STEPS: 37 #####
+Runtime: 5:11:57.313435
+
+lml: -179.13868220175348
+kernel optimized:
+Theta = ['6.01e+03', '6.25e+00', '6.30e+00', '1.00e-02', '1.00e-05', '3.85e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+6.10e-01    1.10e+02    7.10e+00       6.28e+02        3.81e+03    
+
+Prediction:
+energy = -1058.22666eV,  energy_std = 5.70992eV
+E_true:
+0 = -1057.4704eV,  1 = -1057.8006eV,  
+
+Energy of population:
+0 = -1057.7904eV,  1 = -1057.7707eV,  2 = -1054.2148eV,  3 = -1053.5180eV,  
+
+##### STEPS: 38 #####
+Runtime: 6:27:52.254566
+
+lml: -181.9180327385145
+kernel optimized:
+Theta = ['5.88e+03', '6.27e+00', '6.29e+00', '1.00e-02', '1.00e-05', '3.88e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+8.32e-01    1.47e+02    6.94e+00       6.85e+02        3.84e+03    
+
+Prediction:
+energy = -1061.26481eV,  energy_std = 1.67099eV
+E_true:
+0 = -1059.6686eV,  1 = -1059.7703eV,  
+
+Energy of population:
+0 = -1057.8006eV,  1 = -1057.7707eV,  2 = -1057.2109eV,  3 = -1054.2148eV,  
+4 = -1053.5180eV,  
+
+##### STEPS: 39 #####
+Runtime: 7:45:55.145311
+
+lml: -183.665751608969
+kernel optimized:
+Theta = ['5.49e+03', '6.09e+00', '6.09e+00', '1.00e-02', '1.00e-05', '3.93e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+8.60e-01    8.84e+01    7.24e+00       5.42e+02        4.03e+03    
+
+Prediction:
+energy = -1057.88024eV,  energy_std = 4.19059eV
+E_true:
+0 = -1056.5075eV,  1 = -1056.7536eV,  
+
+Energy of population:
+0 = -1059.7703eV,  1 = -1057.7707eV,  2 = -1057.2109eV,  3 = -1055.5087eV,  
+
+##### STEPS: 40 #####
+Runtime: 9:03:46.351727
+
+lml: -185.97480763198217
+kernel optimized:
+Theta = ['5.28e+03', '6.04e+00', '6.09e+00', '1.00e-02', '1.00e-05', '3.96e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+6.92e-01    9.44e+01    8.84e+00       5.14e+02        3.99e+03    
+
+Prediction:
+energy = -1057.45452eV,  energy_std = 3.94794eV
+E_true:
+0 = -1057.2177eV,  1 = -1057.6304eV,  
+
+Energy of population:
+0 = -1059.7703eV,  1 = -1057.8006eV,  2 = -1057.7707eV,  3 = -1057.2109eV,  
+4 = -1056.2449eV,  
+
+##### STEPS: 41 #####
+Runtime: 10:20:31.578300
+
+lml: -188.16383395448804
+kernel optimized:
+Theta = ['5.08e+03', '5.99e+00', '5.99e+00', '1.00e-02', '1.00e-05', '4.00e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.15e+00    1.11e+02    8.99e+00       5.81e+02        3.90e+03    
+
+Prediction:
+energy = -1057.86417eV,  energy_std = 4.15115eV
+E_true:
+0 = -1057.1347eV,  1 = -1057.3832eV,  
+
+Energy of population:
+0 = -1059.7703eV,  1 = -1057.7707eV,  2 = -1057.2109eV,  3 = -1056.7536eV,  
+4 = -1055.5087eV,  
+
+##### STEPS: 42 #####
+Runtime: 11:37:09.435575
+
+lml: -190.36362429988708
+kernel optimized:
+Theta = ['4.85e+03', '5.91e+00', '5.91e+00', '1.00e-02', '1.00e-05', '4.01e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.27e+00    1.08e+02    7.79e+00       6.04e+02        3.93e+03    
+
+Prediction:
+energy = -1055.88824eV,  energy_std = 4.94538eV
+E_true:
+0 = -1055.6769eV,  1 = -1056.4261eV,  
+
+Energy of population:
+0 = -1059.7703eV,  1 = -1057.7707eV,  2 = -1057.2109eV,  3 = -1056.7536eV,  
+4 = -1056.2449eV,  
+
+##### STEPS: 43 #####
+Runtime: 12:54:45.214067
+
+lml: -193.3795568435304
+kernel optimized:
+Theta = ['4.78e+03', '5.93e+00', '5.93e+00', '1.00e-02', '1.00e-05', '4.07e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.01e+00    9.36e+01    5.99e+00       6.95e+02        3.91e+03    
+
+Prediction:
+energy = -1059.19688eV,  energy_std = 3.12571eV
+E_true:
+0 = -1056.9615eV,  1 = -1057.1224eV,  
+
+Energy of population:
+0 = -1059.7703eV,  1 = -1057.7707eV,  2 = -1057.2109eV,  3 = -1056.7536eV,  
+4 = -1056.2449eV,  
+
+##### STEPS: 44 #####
+Runtime: 14:13:07.085269
+
+lml: -195.4594172199836
+kernel optimized:
+Theta = ['4.67e+03', '5.88e+00', '5.88e+00', '1.00e-02', '1.00e-05', '4.01e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.21e+00    1.40e+02    9.79e+00       4.24e+02        3.91e+03    
+
+Prediction:
+energy = -1058.22785eV,  energy_std = 3.67793eV
+E_true:
+0 = -1058.0397eV,  1 = -1058.1946eV,  
+
+Energy of population:
+0 = -1059.7703eV,  1 = -1057.8006eV,  2 = -1057.2109eV,  3 = -1056.4261eV,  
+4 = -1056.2793eV,  
+
+##### STEPS: 45 #####
+Runtime: 15:27:51.143650
+
+lml: -197.46241572010024
+kernel optimized:
+Theta = ['4.49e+03', '5.81e+00', '5.88e+00', '1.00e-02', '1.00e-05', '4.01e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+8.44e-01    1.51e+02    1.06e+01       3.47e+02        3.87e+03    
+
+Prediction:
+energy = -1058.10303eV,  energy_std = 2.89495eV
+E_true:
+0 = -1058.3783eV,  1 = -1058.5335eV,  
+
+Energy of population:
+0 = -1059.7703eV,  1 = -1058.1946eV,  2 = -1057.8006eV,  3 = -1056.4261eV,  
+4 = -1056.2449eV,  
+
+##### STEPS: 46 #####
+Runtime: 16:40:54.050435
+
+lml: -199.19790937505007
+kernel optimized:
+Theta = ['4.29e+03', '5.74e+00', '5.74e+00', '1.00e-02', '1.00e-05', '4.02e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.56e+00    1.18e+02    8.80e+00       5.44e+02        3.83e+03    
+
+Prediction:
+energy = -1058.57712eV,  energy_std = 2.88637eV
+E_true:
+0 = -1058.8654eV,  1 = -1059.0278eV,  
+
+Energy of population:
+0 = -1059.7703eV,  1 = -1058.5335eV,  2 = -1058.1946eV,  3 = -1056.2449eV,  
+4 = -1055.5087eV,  
+
+##### STEPS: 47 #####
+Runtime: 17:55:54.438262
+
+lml: -200.91291648765937
+kernel optimized:
+Theta = ['4.15e+03', '5.70e+00', '5.71e+00', '1.00e-02', '1.00e-05', '4.06e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.53e+00    1.49e+02    7.55e+00       5.47e+02        3.83e+03    
+
+Prediction:
+energy = -1060.52175eV,  energy_std = 1.60539eV
+E_true:
+0 = -1059.5792eV,  1 = -1059.6560eV,  
+
+Energy of population:
+0 = -1059.7703eV,  1 = -1059.0278eV,  2 = -1058.1946eV,  3 = -1057.2109eV,  
+4 = -1055.5087eV,  
+
+##### STEPS: 48 #####
+Runtime: 19:11:29.360708
+
+lml: -202.18568361080676
+kernel optimized:
+Theta = ['4.00e+03', '5.64e+00', '5.64e+00', '1.00e-02', '1.00e-05', '4.09e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.30e+00    1.41e+02    7.92e+00       5.39e+02        3.81e+03    
+
+Prediction:
+energy = -1058.33453eV,  energy_std = 3.27531eV
+E_true:
+0 = -1058.5371eV,  1 = -1058.7126eV,  
+
+Energy of population:
+0 = -1059.7703eV,  1 = -1059.0278eV,  2 = -1058.1946eV,  3 = -1057.8006eV,  
+4 = -1057.7707eV,  
+
+##### STEPS: 49 #####
+Runtime: 20:26:25.754505
+
+lml: -204.07025376364678
+kernel optimized:
+Theta = ['3.87e+03', '5.60e+00', '5.60e+00', '1.00e-02', '1.00e-05', '4.11e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+1.74e+00    1.34e+02    8.89e+00       4.09e+02        3.92e+03    
+
+Prediction:
+energy = -1052.68288eV,  energy_std = 5.86585eV
+E_true:
+0 = -1054.0228eV,  1 = -1054.7046eV,  
+
+Energy of population:
+0 = -1059.7703eV,  1 = -1059.0278eV,  2 = -1058.7126eV,  3 = -1057.7904eV,  
+4 = -1055.5087eV,  
+
+##### STEPS: 50 #####
+Runtime: 21:40:57.632302
+
+lml: -207.0145520938395
+kernel optimized:
+Theta = ['3.93e+03', '5.73e+00', '5.73e+00', '1.00e-02', '1.00e-05', '4.19e+00']
+
+Timing:
+Training    Relax pop.  Make cands.    Relax cands.    Evaluate    
+2.10e+00    1.22e+02    7.11e+00       5.86e+02        3.91e+03    
+
+Prediction:
+energy = -1058.17704eV,  energy_std = 2.98851eV
+E_true:
+0 = -1057.7677eV,  1 = -1057.9348eV,  
+
+Energy of population:
+0 = -1059.7703eV,  1 = -1059.0278eV,  2 = -1058.7126eV,  3 = -1058.1946eV,  
+4 = -1057.2109eV,  
