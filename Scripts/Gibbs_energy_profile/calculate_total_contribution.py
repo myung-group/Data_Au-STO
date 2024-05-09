@@ -41,10 +41,10 @@ v_list = freq_list[:num]
 
 ## 4) Calculate total contribution
 total_contribution(v_list = v_list,
-                   w0 = 2,
+                   w0 = 1,
                    T = 298.15,
                    molecule = molecule,
-                   sigma = 1,
+                   sigma = 2,
                    P=None)
 
 
