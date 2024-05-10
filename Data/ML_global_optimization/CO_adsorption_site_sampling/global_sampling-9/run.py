@@ -34,7 +34,6 @@ box_1 = MakeBox(stoichiometry=stoichiometry,
                 slab=slab,
                 specified_atoms=79,
                 center_point=None,
-                bl_factor=2.5,
                 shirinkage=None)
 box = box_1.make_box()
 
@@ -86,7 +85,7 @@ search = GOFEE(calc=calc,
                startgenerator=sg,
                candidate_generator=candidate_generator,
                max_steps=150,
-               population_size=10,
+               population_size=5,
                position_constraint=box_constraint)
 search.run_new()
 

@@ -30,12 +30,12 @@ slab.set_constraint(c)
 ##4) Set the box, you can set this parameter using the MakeBox class
 stoichiometry = [6]+[8]
 
-box_1 = MakeBox(stoichiometry=stoichiometry,
-                slab=slab,
-                specified_atoms=79,
-                center_point=None,
-                shirinkage=None)
-box = box_1.make_box()
+v = slab.get_cell().copy()
+v[0][0] = 8.5  
+v[1][1] = 7.7
+v[2][2] = 6.0
+p0 = np.array((8.3, 7.7, 23.6))
+box = [p0, v] 
 
 
 ##5) Set the sg object use the StartGenerator class
@@ -47,16 +47,21 @@ If you want to use the original version,
 you have to set the parameter 'molecule=None' or not set the parameter 'molecule'
 """
 
-radius, spherical_center = box_1.spherical_parameters() # Use the MakeBox class's function
+#radius, spherical_center = box_1.spherical_parameters() # Use the MakeBox class's function
 
 sg = StartGenerator(molecule=molecule,
                     slab=slab, 
                     box=box, 
-                    stoichiometry=stoichiometry,
-                    radius = radius,
-                    center = spherical_center)
-#sg.make_mol_structure()
-
+                    stoichiometry=stoichiometry)
+#slab_1 = slab.copy()
+#for i in range(40):
+#    sg = StartGenerator(molecule=molecule,
+#                    slab=slab_1, 
+#                    box=box, 
+#                    stoichiometry=stoichiometry)
+#    slab_1 = sg.make_mol_structure()
+##sg.make_mol_structure()
+#write('POSCAR-stack',slab_1)
 """
 If you want to skip the spherically random generation manner,
 just set like below:
