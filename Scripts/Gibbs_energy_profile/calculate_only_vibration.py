@@ -2,7 +2,7 @@ import subprocess
 
 from ase.io import read, write
 from scipy.constants import Boltzmann, Planck
-from entropy_enthalpy import *
+from entropy_and_enthalpy import *
 
 
 ## 1) Get a list of vibrational frequencies
@@ -20,11 +20,11 @@ v_list = freq_list
 ## 2) Calculate vibrational contribution
 T = 298.15
 q_v, S_v, H_v = vibrational_contribution(v_list, T)
-S   = J_per_atom_to_eV_per_atom(S_v+Boltzmann)
-TS  = J_per_atom_to_eV_per_atom((S_v+Boltzmann)*T)
-H   = J_per_atom_to_eV_per_atom(H_v+Boltzmann*T)
+S   = J_to_eV(S_v+Boltzmann)
+TS  = J_to_eV((S_v+Boltzmann)*T)
+H   = J_to_eV(H_v+Boltzmann*T)
 zpe = zero_point_enery(v_list)
-ZPE = J_per_atom_to_eV_per_atom(zpe)
+ZPE = J_to_eV(zpe)
 
 print(f'\n==> ZPE   = {ZPE:9.5f}  eV')
 print(f'==> -TS   = {-TS:9.5f}  eV')

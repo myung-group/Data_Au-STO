@@ -3,7 +3,7 @@ from ase import Atoms
 
 from ase.io import read, write
 from scipy.constants import Boltzmann, Planck
-from entropy_enthalpy import *
+from entropy_and_enthalpy import *
 
 
 """

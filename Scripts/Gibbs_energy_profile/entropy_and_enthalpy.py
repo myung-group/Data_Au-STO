@@ -1,20 +1,16 @@
 import numpy as np
 
 from ase import Atoms
-from ase.visualize import view
-from ase.io import read, write, Trajectory
-from ase.geometry import get_distances
-from ase.data import atomic_numbers, atomic_names, atomic_masses, covalent_radii
+from scipy.constants import Boltzmann, Planck
 
-from scipy.constants import Boltzmann, Planck, N_A
 
-def kcal_per_mol_to_J_per_atom(value):
+def kcal_per_mol_to_J(value):
     return value*(4184/(6.02214076*(10**23)))
 
-def J_per_atom_to_kcal_per_mol(value):
+def J_to_kcal_per_mol(value):
     return value*((6.02214076*(10**23))*0.000239006)
 
-def J_per_atom_to_eV_per_atom(value):
+def J_to_eV(value):
     return value*(6.241509*(10**18))
 
 def find_intersection_point(angle,y):
@@ -107,12 +103,12 @@ def electronic_contributions(w0):
     print(f"q_e = {q_e:5.5f}")
     print('----------------------------------------------')
     print(f"S_e = {S_e:5.5f} J/K")
-    print(f"    = {J_per_atom_to_kcal_per_mol(S_e):5.5f} kcal/K*mol")
-    print(f"    = {J_per_atom_to_eV_per_atom(S_e):5.5f} eV/K")
+    print(f"    = {J_to_kcal_per_mol(S_e):5.5f} kcal/K*mol")
+    print(f"    = {J_to_eV(S_e):5.5f} eV/K")
     print('----------------------------------------------')
     print(f"H_e = {H_e:5.5f} J")
-    print(f"    = {J_per_atom_to_kcal_per_mol(H_e):5.5f} kcal/mol")
-    print(f"    = {J_per_atom_to_eV_per_atom(H_e):5.5f} eV")
+    print(f"    = {J_to_kcal_per_mol(H_e):5.5f} kcal/mol")
+    print(f"    = {J_to_eV(H_e):5.5f} eV")
 
     return q_e, S_e, H_e
 
@@ -147,12 +143,12 @@ def vibrational_contribution(v_list, T):
     print(f"q_v = {q_v:5.5f}")
     print('----------------------------------------------')
     print(f"S_v = {S_v:5.5f}     J/K")
-    print(f"    = {J_per_atom_to_kcal_per_mol(S_v):5.5e} kcal/K*mol")
-    print(f"    = {J_per_atom_to_eV_per_atom(S_v):5.5f}     eV/K")
+    print(f"    = {J_to_kcal_per_mol(S_v):5.5e} kcal/K*mol")
+    print(f"    = {J_to_eV(S_v):5.5f}     eV/K")
     print('----------------------------------------------')
     print(f"H_v = {H_v:5.5f}     J")
-    print(f"    = {J_per_atom_to_kcal_per_mol(H_v):5.5f}     kcal/mol")
-    print(f"    = {J_per_atom_to_eV_per_atom(H_v):5.5f}     eV")
+    print(f"    = {J_to_kcal_per_mol(H_v):5.5f}     kcal/mol")
+    print(f"    = {J_to_eV(H_v):5.5f}     eV")
     
     return q_v, S_v, H_v
 
@@ -188,12 +184,12 @@ def rotational_contirubution(molecule, sigma, T, linear=False):
     print(f"q_r = {q_r:5.5f}")
     print('----------------------------------------------')
     print(f"S_r = {S_r:5.5f}     J/K")
-    print(f"    = {J_per_atom_to_kcal_per_mol(S_r):5.5e} kcal/K*mol")
-    print(f"    = {J_per_atom_to_eV_per_atom(S_r):5.5f}     eV/K")
+    print(f"    = {J_to_kcal_per_mol(S_r):5.5e} kcal/K*mol")
+    print(f"    = {J_to_eV(S_r):5.5f}     eV/K")
     print('----------------------------------------------')
     print(f"H_r = {H_r:5.5f}     J")
-    print(f"    = {J_per_atom_to_kcal_per_mol(H_r):5.5f}     kcal/mol")
-    print(f"    = {J_per_atom_to_eV_per_atom(H_r):5.5f}     eV")
+    print(f"    = {J_to_kcal_per_mol(H_r):5.5f}     kcal/mol")
+    print(f"    = {J_to_eV(H_r):5.5f}     eV")
 
     return q_r, S_r, H_r
 
@@ -212,12 +208,12 @@ def translational_contribution(molecule, T, P=None, M=None):
     print(f"q_t = {q_t:5.5e}")
     print('----------------------------------------------')
     print(f"S_t = {S_t:5.5f}     J/K")
-    print(f"    = {J_per_atom_to_kcal_per_mol(S_t):5.5e} kcal/K*mol")
-    print(f"    = {J_per_atom_to_eV_per_atom(S_t):5.5f}     eV/K")
+    print(f"    = {J_to_kcal_per_mol(S_t):5.5e} kcal/K*mol")
+    print(f"    = {J_to_eV(S_t):5.5f}     eV/K")
     print('----------------------------------------------')
     print(f"H_t = {H_t:5.5f}     J")
-    print(f"    = {J_per_atom_to_kcal_per_mol(H_t):5.5f}     kcal/mol")
-    print(f"    = {J_per_atom_to_eV_per_atom(H_t):5.5f}     eV")
+    print(f"    = {J_to_kcal_per_mol(H_t):5.5f}     kcal/mol")
+    print(f"    = {J_to_eV(H_t):5.5f}     eV")
 
     return q_t, S_t, H_t
 
@@ -243,20 +239,20 @@ def total_contribution(v_list, w0, T,
 
     print('\n###### Total Contribution ####################\n')
     print(f"ZPE        = {zpe:9.5f}     J")
-    print(f"           = {J_per_atom_to_kcal_per_mol(zpe):9.5f}     kcal/mol")
-    print(f"           = {J_per_atom_to_eV_per_atom(zpe):9.5f}     eV")
+    print(f"           = {J_to_kcal_per_mol(zpe):9.5f}     kcal/mol")
+    print(f"           = {J_to_eV(zpe):9.5f}     eV")
     print('----------------------------------------------')
     print(f"-TS        = {-T*S:9.5f}     J")
-    print(f"           = {-J_per_atom_to_kcal_per_mol(T*S):9.5f}     kcal/mol")
-    print(f"           = {-J_per_atom_to_eV_per_atom(T*S):9.5f}     eV")
+    print(f"           = {-J_to_kcal_per_mol(T*S):9.5f}     kcal/mol")
+    print(f"           = {-J_to_eV(T*S):9.5f}     eV")
     print('----------------------------------------------')
     print(f"Cp         = {Cp:9.5f}     J")
-    print(f"           = {J_per_atom_to_kcal_per_mol(Cp):9.5f}     kcal/mol")
-    print(f"           = {J_per_atom_to_eV_per_atom(Cp):9.5f}     eV")
+    print(f"           = {J_to_kcal_per_mol(Cp):9.5f}     kcal/mol")
+    print(f"           = {J_to_eV(Cp):9.5f}     eV")
     print('----------------------------------------------')
     print(f"Cp-TS+ZPE  = {Cp_TS_ZPE:9.5f}     J")
-    print(f"           = {J_per_atom_to_kcal_per_mol(Cp_TS_ZPE):9.5f}     kcal/mol")
-    print(f"           = {J_per_atom_to_eV_per_atom(Cp_TS_ZPE):9.5f}     eV\n")
+    print(f"           = {J_to_kcal_per_mol(Cp_TS_ZPE):9.5f}     kcal/mol")
+    print(f"           = {J_to_eV(Cp_TS_ZPE):9.5f}     eV\n")
 
     return zpe, S, Cp, Cp_TS_ZPE
                            
