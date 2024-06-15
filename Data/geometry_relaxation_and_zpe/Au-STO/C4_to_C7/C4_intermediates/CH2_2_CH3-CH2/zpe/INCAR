@@ -1,0 +1,26 @@
+ENCUT = 500.000000
+SIGMA = 0.010000
+EDIFF = 1.00e-05
+ALGO = A
+ISMEAR = 0
+NELM = 2000
+NSW = 999
+NCORE = 32
+LCHARG = .FALSE.
+LWAVE = .FALSE.
+LREAL = Auto
+
+IBRION = 5 ; POTIM = 0.015
+NFREE = 2 
+
+ISYM = 0 ! Does not use symmetry
+EDIFFG = -0.05
+
+GGA = BF
+LUSE_VDW=.TRUE.
+Zab_VDW = -1.8867
+LBEEFENS=.TRUE. !to calculate error estimates
+
+DIPOL = 0.5 0.5 0.65
+IDIPOL = 3
+LDIPOL = .TRUE.
